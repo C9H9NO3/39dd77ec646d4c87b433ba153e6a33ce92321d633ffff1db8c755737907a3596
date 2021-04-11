@@ -1,0 +1,29 @@
+Ant
+Antlion
+Bee
+Beetle
+Biting lice
+Booklice
+Butterfly
+Bug
+Cockroach
+Cricket
+Damselfly
+Dragonfly
+Flea
+Fly
+Grasshopper
+Lacewing
+Leaf insect
+Lice
+Mantid
+Moth
+Praying Mantid
+Scorpionfly
+Snakeflies
+Stick insect
+Stoneflies
+Termite
+Wasp
+Web-spinner
+hexapod
