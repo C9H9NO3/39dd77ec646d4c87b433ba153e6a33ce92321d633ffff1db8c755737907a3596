@@ -36,7 +36,7 @@ completed
 composed
 computed
 conducted
-consolidated	constructed
+consolidated	
 contacted
 continued
 contracted
@@ -74,7 +74,6 @@ exhibited
 expanded
 expedited
 experienced
-experimented	explained
 explored
 facilitated
 figured
