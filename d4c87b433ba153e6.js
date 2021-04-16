@@ -11,9 +11,9 @@ if(prod){
 }
 
 
-console.log('render')
+
 setInterval(()=>{
-    console.log('sent')
+
     ipcRenderer.send("my_channel", "hi");
 },1000)
 
@@ -710,11 +710,11 @@ function pc_load_notes(){
     let packs = fs.readFileSync(`${PATH}created_packs.txt`, 'utf8').split('\n');
     //let packs = fs.readFileSync(`./assets/created_packs.txt`, 'utf8').split('\n');
 
-    console.log(packs)
+
     for(let i = 0; i < packs.length; i++){
         box.insertAdjacentHTML( 'beforeend', `<a>${packs[i]}<br></a>`);
     }
-    console.log('Done')
+
 }
 
 function pc_switch_help(number){
@@ -748,7 +748,7 @@ function pc_switch_help(number){
 var highlighting = false;
 //Enable copy and paste
 document.addEventListener('keydown', function (e) {
-    //console.log(e.keyCode)
+    //
     if (document.getElementById("pack_creator_section").classList.contains('section--is-active')){
 
         function make_text(){
@@ -836,7 +836,7 @@ document.addEventListener('keydown', function (e) {
         // if(highlighting && hire_write_box.children.length < 1){highlighting = false;}
 
         if(e.keyCode == 13){
-            console.log('Enter')
+
             //hire_write_box.insertAdjacentHTML( 'beforeend', `<span> </span>`)
             var text = make_text()
             hire_h2_elem.innerHTML = text;
@@ -882,7 +882,7 @@ document.addEventListener('keydown', function (e) {
             hire_write_box.removeChild(hire_write_box.lastChild);
 
             if(!hire_write_box.hasChildNodes()){
-                console.log('==============================')
+
                 var text = 'Pack Creator';
                 hire_h2_elem.innerHTML = text;
             }
