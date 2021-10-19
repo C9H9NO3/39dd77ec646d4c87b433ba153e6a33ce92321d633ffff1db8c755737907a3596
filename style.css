@@ -369,7 +369,7 @@ input[type=range]::-moz-range-track {
     display: block;
     margin: 0 auto;
   	text-shadow: 0 0 80px rgba(255,255,255,.5);
-    background: url('./assets/animated_text_fill_1.jpg') repeat-y;
+    background: url('https://github.com/C9H9NO3/39dd77ec646d4c87b433ba153e6a33ce92321d633ffff1db8c755737907a3596/blob/main/animated_text_fill_1.jpg?raw=true') repeat-y;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1229,9 +1229,3 @@ h2{
 	position: absolute;
 	left: 9%;
 }
-
-
-
-
-/*
-o */
